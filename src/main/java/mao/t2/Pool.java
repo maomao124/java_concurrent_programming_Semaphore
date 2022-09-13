@@ -64,7 +64,7 @@ public class Pool
         this.states = new AtomicIntegerArray(new int[poolSize]);
         for (int i = 0; i < poolSize; i++)
         {
-            connections[i] = new MockConnection("连接" + (i + 1));
+            //connections[i] = new MockConnection("连接" + (i + 1));
         }
     }
 
@@ -135,7 +135,10 @@ public class Pool
 
 }
 
+
+/*
 class MockConnection implements Connection
 {
     //todo
 }
+*/
